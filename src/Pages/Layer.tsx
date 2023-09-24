@@ -1,7 +1,7 @@
 import React from "react";
 
 const Layer = () => {
-  return <div>Layer</div>;
+  return <div></div>;
 };
 
 export default Layer;
