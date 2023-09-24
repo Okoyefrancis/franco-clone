@@ -310,6 +310,10 @@ const Button3 = styled.button`
   background-color: black;
   color: white;
   border-radius: 8px;
+
+  @media screen and (max-width: 375px) {
+    padding: 15px 80px;
+  }
 `;
 
 const Button2 = styled.button`
@@ -321,6 +325,12 @@ const Button2 = styled.button`
     padding: 15px;
     padding-right: 180px;
   }
+  @media screen and (max-width: 375px) {
+    input {
+      padding: 15px;
+      padding-right: 130px;
+    }
+  }
 `;
 
 const Button = styled.button`
@@ -331,17 +341,27 @@ const Button = styled.button`
     padding: 15px;
     padding-right: 180px;
   }
+
+  @media screen and (max-width: 375px) {
+    input {
+      padding: 15px;
+      padding-right: 130px;
+    }
+  }
 `;
 
 const Bt = styled.div`
   @media screen and (max-width: 375px) {
-    margin-left: 100px;
+    margin-left: 70px;
+    margin-bottom: 50px;
   }
   @media screen and (max-width: 768px) {
-    margin-left: 100px;
+    margin-left: 70px;
+    margin-bottom: 50px;
   }
   @media screen and (max-width: 500px) {
-    margin-left: 100px;
+    margin-left: 70px;
+    margin-bottom: 50px;
   }
 `;
 

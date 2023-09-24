@@ -249,6 +249,11 @@ const Wrapper = styled.div`
   /* p {
   
   } */
+  @media screen and (max-width: 375px) {
+    h1 {
+      font-size: 40px;
+    }
+  }
 `;
 
 const Text1 = styled.div`
@@ -273,14 +278,14 @@ const Container = styled.div`
   height: 100vh;
   text-align: center;
   @media screen and (max-width: 375px) {
-    height: 140vh;
+    height: 110vh;
   }
 
   @media screen and (max-width: 768px) {
-    height: 120vh;
+    height: 110vh;
   }
   @media screen and (max-width: 500px) {
-    height: 120vh;
+    height: 110vh;
   }
   display: flex;
   justify-content: center;
